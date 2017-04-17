@@ -8,7 +8,7 @@
 Configurator.shared.regist(type: SampleInteractorPtorocol.self, instance: SampleInteractor())
 ```
 
-#### Step2 : Define protocol, Inject the instance and use
+#### Step2 : Define protocol, Inject the instance and use it
 
 ```swift
 protocol SampleInteractorPtorocol {
@@ -37,6 +37,10 @@ class SampleInteractor : SampleInteractorPtorocol {
   }
 }
 ```
+
+## DI Configurator
+
+- Very simple one source file : [Configurator Source Code](DISample/DISample/Configurator.swift)
     
 
 ## Reference
